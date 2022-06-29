@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <main>
+        <div>
+            <header id="title">Thank you for your service!</header>
+
+            <p id="description">Your service to our country did not go unnoticed! We are here to assist you in any way possible.<br> Please fill out this short survey to help us better assisst you.</p>
+            <fieldset id="field">
+            <legend id="leg">Please Complete This Survey</legend>
+            <form id="survey-form">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Enter your name" required>
+            </div><br>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="text" placeholder="Enter your email" required>
+            </div><br>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" placeholder="Enter Age" minlength="18" maxlength="90" required>
+            </div><br>
+            <div>
+                <p>Which branch of service?</p>
+                <select name="branch of service">
+                    <option value="Army">Army</option>
+                    <option value="Navy">Navy</option>
+                    <option value="Marines">Marines</option>
+                    <option value="Air Force">Air Force</option>
+                    <option value="Coast Guard">Coast Guard</option>
+                    <option value="Spacce Force">Space Force</option>
+                </select>
+            </div>
+            <div>
+                <p>Are uou currently receivimg benefits from the VA?<p>
+                <label for="benefits">
+                    <input type="radio" name="yes-no" id="yes">Yes
+                </label>
+                <label for="benefits">
+                    <input type="radio" name="yes-no" id="no">No
+                </label>
+                <p>If yes please explain below:</p>
+                <textarea name="comments" cols="20" rows="4">Please explain benefits here</textarea>
+                <p>What are some of the services you are currently in need of?</p><br>
+                <input type="checkbox" name="help-needed" value="job-placement">Job Placement
+                <input type="checkbox" name="help-needed" value="medical">Medical
+                <input type="checkbox" name="help-needed" value="counseling">counseling
+            </div><br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+
+            </form>
+            </fieldset>
+
+        </div>
+    </main>
+    
+</body>
+</html>

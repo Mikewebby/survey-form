@@ -1,0 +1,27 @@
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw8zLhO_0anHJHePUt3GfX-Efb4snD8f17yA&usqp=CAU);
+    color: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+    align: center;
+}
+#title {
+    text-align: center;
+    background-color: gray;
+    
+}
+#description {
+text-align: center;
+color: black;
+}
+#survey-form {
+    text-align: center;
+}
+#field {
+    background-color: rgba(0, 0, 128, 0.466);
+    border-radius: 25px;
+}
+#leg {
+    text-align:center;
+    color:black;
+}
